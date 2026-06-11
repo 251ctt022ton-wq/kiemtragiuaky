@@ -6,9 +6,9 @@ themeBtn.addEventListener('click', () => {
     body.classList.toggle('dark-mode');
     
     if(body.classList.contains('dark-mode')) {
-        themeBtn.textContent = '☀️ Chế độ sáng';
+        themeBtn.textContent = ' Chế độ sáng';
     } else {
-        themeBtn.textContent = '🌙 Chế độ tối';
+        themeBtn.textContent = ' Chế độ tối';
     }
 });
 
