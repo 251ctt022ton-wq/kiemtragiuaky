@@ -17,7 +17,7 @@ const infoButtons = document.querySelectorAll('.info-btn');
 infoButtons.forEach(button => {
     button.addEventListener('click', function() {
         const placeName = this.getAttribute('data-place');
-        alert(`Bạn đang quan tâm đến "${placeName}". \nChúng tôi sẽ cung cấp lịch trình chi tiết và giá tour cho địa điểm này ngay bây giờ!`);
+        alert(`Bạn đang quan tâm đến "${placeName}".
     });
 });
 
